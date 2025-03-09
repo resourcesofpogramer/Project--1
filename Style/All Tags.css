@@ -1,0 +1,24 @@
+
+h1{background-color:rgb(255, 240, 31);
+text-align: center;}
+h3{
+    background-color: rgb(255, 28, 28);
+    text-align: center;
+}
+
+
+sub{color: red;
+}
+sup{color: red;
+}
+small{color: red;
+}
+address{color: red;
+}
+em{color: red ;
+}
+
+abbr{color: red;
+}
+
+

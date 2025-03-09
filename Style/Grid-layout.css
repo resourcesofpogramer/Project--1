@@ -1,0 +1,157 @@
+       /* defalt style */
+       h1{background-color:rgb(255, 240, 31); text-align: center;}
+       .h3{
+           background-color: darkseagreen;
+           text-align: center;
+       }
+       /* grid-1 */
+       
+       .Grid-1{
+           display: grid;
+           grid-template-columns: auto 200px auto 200px;
+           justify-content: center;
+           text-align: center;
+           height: 200px;}
+       
+       .grid{border: 2px solid rgb(6, 165, 117);}
+       
+       
+           /* grid-2 */
+       
+       .Grid-2{
+           display: grid;
+           text-align: center;
+           grid-template-columns: repeat(7, 1fr) 5fr auto;
+           height: 300px;}
+       
+       .father{border: 2px solid blueviolet;}
+       
+       /* grid-3 */
+       
+       .Grid-3{
+           display: grid;
+           grid-gap: 30px;
+           grid-template-columns: 200px 200px 200px 200px  ;
+           justify-content: center;
+           text-align: center;
+           height: 300px;}
+       
+       .brother{border: 3px solid rgb(196, 40, 66);}
+       
+       
+       
+       /* grid-4 */
+       
+       .calender{
+           display: grid;
+           text-align: center;
+           grid-template-columns: repeat(7, 1fr);
+           border: 2px solid;
+           font-size: 1.5em;
+           column-gap: 5px;
+           row-gap: 15px;
+           width: 600px;}
+       
+       .c-elimentP, .c-day{
+           background-color: rgb(56, 196, 206);
+           border-radius: 5px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           height: 50px;
+           width: 80px;}
+       
+       .c-day{background-color: rgb(15, 37, 233);}
+       
+       .c-hade{
+           font-size: 2em;
+           color: rgb(212, 42, 255);}
+       
+       
+           /* gird-5 */
+       
+       .gird-5{
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       gap: 8px;
+       width: 500px;
+       grid-template-rows: repeat(3, 100px) 20px;
+       }
+       .fl{
+           background-color: gray;
+           border-radius: 5px;
+       }
+       #colas-1{
+           grid-row: span 5;
+       }
+       #colas-6, #colas-7, #colas-9, #colas-10 {
+       background-color: brown;
+       }
+       #colas-11, #colas-12 {
+           grid-column: span 3;
+       }
+       
+       
+       /* grid-6 */
+       
+       .header, .nav, .main, .sidbarr, .advertis, .footer{
+           background-color: rgb(238, 219, 135);
+           border: 5px solid tomato;
+           padding: 5px;
+           border-radius: 5px;
+         
+       }
+       .header{
+       grid-area: header;
+       }
+       .nav{
+       grid-area: nav;
+       }
+       .main{
+       grid-area: main;
+       }
+       .sidbarr{
+       grid-area: sidbarr;
+       }
+       .advertis{
+       grid-area: advertis;
+       }
+       .footer{
+       grid-area: footer;
+       }
+       .grid-6{
+           display: grid;
+           grid-template-areas: 
+           "header header header header"
+           "nav    main   main   sidbarr"
+           "nav    main   main   advertis"
+           "footer footer footer footer" ;
+           gap: 20px;
+       }
+       
+       @media screen and (max-width:576px) {
+           .grid-6{
+               display: grid;
+               grid-template-areas: 
+               "header"
+               "nav"
+               "main"
+               "sidbarr"
+               "advertis"
+               "footer"
+               ;
+           } 
+       }
+       @media screen and (min-width:576px) and (max-width:992px) {
+       
+           .grid-6{
+               display: grid;
+               grid-template-areas: 
+               "header header header "
+               "nav nav nav"
+               "sidbarr main main "
+               "advertis footer footer "
+               ;
+           }
+       }
+       

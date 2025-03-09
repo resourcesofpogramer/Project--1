@@ -1,0 +1,64 @@
+h1{background-color:rgb(255, 240, 31);
+    text-align: center;}
+    h3{
+        background-color: rgb(255, 28, 28);
+        text-align: center;
+    }
+        .box{
+            border: 2px dotted rgb(13, 231, 49); 
+            height: 50px;
+            width: 50px;
+        }
+        .all-flex2{
+            border: 4px solid rgb(27, 13, 226);
+            border-radius: 3px;
+            width: 500px;
+        }
+        .justify1{
+            border: 3px solid darkorchid;
+            border-radius: 5px;
+            display: flex;
+            justify-content: flex-start;
+            height: 200px;
+            width: 1000px;
+        }
+        .justify2{
+            border: 3px solid darkorchid;
+            border-radius: 5px;
+            display: flex;
+            justify-content:center;
+            height: 200px;
+            width: 1000px;
+        }
+        .justify3{
+            border: 3px solid darkorchid;
+            border-radius: 5px;
+            display: flex;
+            justify-content: flex-end;
+            height: 200px;
+            width: 1000px;
+        }
+        .justify4{
+            border: 3px solid darkorchid ;
+            border-radius: 5PX;
+            display: flex;
+            justify-content: space-between;
+            height: 200px;
+            width: 1000px;
+        }
+        .justify5{
+            border: 3px solid darkorchid;
+            border-radius: 5PX;
+            display: flex;
+            justify-content: space-around;
+            height: 200px;
+            width: 1000px;
+        }
+        .justify6{
+            border: 3px solid darkorchid;
+            border-radius: 5PX;
+            display: flex;
+            justify-content: space-evenly;
+            height: 200px;
+            width: 1000px;
+        }

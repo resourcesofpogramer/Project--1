@@ -1,0 +1,114 @@
+h1{background-color:rgb(255, 240, 31);
+    text-align: center;}
+    h3{
+        background-color: rgb(255, 28, 28);
+        text-align: center;
+    }
+    
+            .hover2:hover{
+        background-color: blue;
+    }
+    .hover3:hover{
+        font-size: larger;
+    }
+    .hover4:hover{
+        text-align: center;
+    }
+    .hover5:hover{
+        height: 200px;
+    }
+    .hover6:hover{
+        position: absolute;
+    }
+    .hover7:hover{
+    position: fixed;
+    }
+    .hover8:hover{
+    display: none;
+    }
+    .hover9:hover{
+        background-color: blue;
+        height: 200px;
+        text-align: center;
+        font-size: larger;
+    }
+    .hover10:hover{
+     border: 10px solid blueviolet;
+     text-align: center;
+    }
+    .focus-mother{
+        display: grid;
+        grid-template-columns: 100px;
+    }
+    .focus1:focus{
+        color:blue;
+    }
+    .focus2:focus{
+        background-color:hotpink;
+    }
+    .focus3:focus{
+        border: 3px solid darkred;
+    }
+    .focus4:focus{
+        font-size: large;
+    }
+    .focus5:focus{
+    padding-left: 30px;
+    }
+    .sudo1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .sudo1 p::first-letter{
+        font-size: 5em;
+        display: flex;
+        justify-content: center;
+    }
+    .sudo2 p::first-line{
+        color: rgb(12, 2, 102);
+        font-size: 2em;
+        background-color: rgb(187, 147, 147);
+    }
+    .sudo2 p::first-letter{
+        font-size: 5em;
+    }
+    .sudo3 p::after{
+       content:' yusuf'; 
+       font-size: 1em;
+       color: rgb(255, 141, 11);
+    }
+    .sudo4::selection{
+    background-color: yellow;
+    }
+    
+    .text:hover{
+    background-color: brown;
+    flex-direction: column;
+       }
+    .fix:hover{
+        color: blue;
+    }
+    .fig:hover{
+    font-size: 2em;
+    }
+    .fim:hover{
+        text-align: center;
+    }
+    .farst input:focus{
+        color: aqua;
+    }
+    .lower input:focus{
+        background-color: chartreuse;
+    }
+    .uper input:focus{
+        font-size: 5em;
+    }
+    .diper input:focus{
+        padding-block-end: 100px;
+    }
+    .anser input:focus{
+        margin: 100px;
+    }
+    .qson input:focus{
+        border: 100px solid rgb(240, 36, 206);
+    }

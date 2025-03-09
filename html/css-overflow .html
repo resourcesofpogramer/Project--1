@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css overflow</title>
+    <style>
+        body{
+            background-color: rgb(148, 148, 148);
+        }
+
+
+        .box{
+            text-align: center;
+            justify-content: center;
+            margin-top: 20px;
+            margin-left: 500PX;
+            margin-right: 500PX;
+            height: 150px;
+            background-color: orange;
+            border-radius: 10px;
+            
+        }
+        #box-1{
+            overflow: hidden;
+        }
+        #box-2{
+           overflow: scroll; 
+        }
+        #box-3{
+           overflow: auto; 
+        }
+        #box-4{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box-1" class="box">
+        <h2>Overflow-Hidden</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque explicabo vero voluptatem, repellat deserunt quas sit odio, iusto error harum. Quibusdam alias voluptas temporibus, dolores, veniam aliquid, sint nostrum adipisci fugit doloremque iusto? Labore veniam asperiores eaque sapiente adipisci totam quia animi corrupti incidunt soluta dicta excepturi cumque atque placeat ad natus tempora, repudiandae hic quasi temporibus nesciunt a dolorem nisi sequi. Amet et commodi delectus corporis nobis, obcaecati sit facilis est ipsa odit quam, totam veritatis similique eius, distinctio tenetur maxime animi neque illum cum doloremque expedita quos! Sit neque quasi placeat explicabo dolor id qui totam excepturi velit provident earum incidunt recusandae consectetur error temporibus similique officiis, molestias dolore ipsa. Voluptas iusto, molestiae doloremque vel nihil eaque totam autem amet sit praesentium illo officia omnis sint aut facilis, non perspiciatis maxime consequuntur asperiores odit deserunt qui. Laborum deserunt vero perspiciatis obcaecati a eaque dolorem, similique accusamus nulla placeat doloribus illum odit voluptatum, amet neque architecto omnis excepturi ipsam consequuntur, fugit modi at porro harum aut? Minus distinctio nostrum omnis. Quibusdam distinctio fugit temporibus, nam commodi molestias fuga quaerat adipisci fugiat nostrum non, velit officia eum doloremque nisi tempore nemo ratione quasi saepe blanditiis praesentium est! In, culpa!</p>
+    </div>
+    <div  id="box-2" class="box">
+        <h2>Overflow-scroll</h2>
+        <p>Nemo ut temporibus repellendus doloremque? Animi modi ex id velit quisquam itaque eos odit maxime sint non eius iste facilis reiciendis consectetur praesentium nobis deleniti porro alias, iusto optio voluptate fugiat minima. Quod fugit unde suscipit numquam quasi nulla hic blanditiis ipsam incidunt! Tenetur recusandae quia vel ex nesciunt alias! Labore, odio quidem fugiat natus atque modi placeat, quasi suscipit perspiciatis tempora et qui doloribus officiis illum quisquam vero beatae reiciendis nobis. Veritatis modi nisi quidem rerum ipsa sint voluptates tempora maxime dicta natus vitae assumenda, sunt molestiae nam velit? Consequatur neque quis velit incidunt delectus iusto, voluptate veritatis quo cum vero ex eveniet temporibus repellendus! Vitae, dolore. Reiciendis vero dolor non ipsum veritatis odio. Architecto quaerat cumque suscipit consectetur rem ex illum sapiente facilis neque officiis optio eos libero perspiciatis perferendis exercitationem aliquid dolorum sequi, quasi rerum vitae? Eligendi, veniam unde est nemo accusamus deleniti. Adipisci, eos at. Incidunt repellat libero vero odit maiores deleniti assumenda commodi illum aut in, mollitia iusto, magni obcaecati dolor ut, corporis quos! Dolor repudiandae ipsam odio vero officiis sunt aperiam rerum architecto veniam repellendus veritatis, fugiat reiciendis odit aliquam a aspernatur et fugit id facere voluptates eius mollitia delectus blanditiis eos. Blanditiis, culpa.</p>
+    </div>
+    <div  id="box-3" class="box">
+        <h2>Overflow-Aouto</h2>
+        <p>Sed, nostrum excepturi illum ab iste vitae id et saepe. Sapiente eveniet, debitis repellendus optio quo aliquid dolores minus labore in doloribus officiis, ea voluptates maiores consectetur illo vitae possimus, et commodi distinctio architecto eligendi obcaecati exercitationem. Id, dolor et iusto tenetur velit obcaecati. Voluptates consectetur commodi eius ipsa laboriosam aliquid! Doloribus eaque asperiores iste, perferendis iure temporibus inventore totam laudantium! Debitis accusantium laborum, dolorem, quaerat facilis id, ducimus unde magnam adipisci veniam suscipit voluptatum. Reprehenderit sed quam eveniet mollitia voluptatibus quis, maiores ipsam ratione explicabo consectetur cumque expedita aliquid qui. Accusamus ex placeat deserunt natus. Aliquam recusandae error iure vel voluptate consequatur dicta, repudiandae delectus iusto. Vitae, rem et consequatur tempora porro nobis libero autem, sequi rerum id, dolores excepturi velit provident sed officiis laboriosam exercitationem commodi! Illum eius corporis deserunt dolorem sit quos repellat recusandae voluptate magni iste, quidem ea quasi optio ducimus expedita in sequi deleniti dolorum, voluptas ullam? Maiores perferendis molestias optio veritatis culpa neque, odit totam, magni, ut alias mollitia saepe nemo accusamus voluptatem provident nulla quas tenetur unde dicta impedit illo? Provident deleniti eveniet incidunt? Culpa aperiam adipisci molestiae hic, reiciendis consequatur doloremque sapiente deserunt harum, earum cum beatae eius quisquam ab ducimus qui.</p>
+    </div>
+    <h3 style="text-align: center;"> white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis</h3>
+    <p  id="box-4" class="box">Quae commodi et molestias exercitationem expedita ducimus necessitatibus suscipit facilis voluptatibus voluptatum, quas fuga id quis reiciendis dicta quidem nam sint enim iure, officia quam assumenda esse repudiandae. Fugit consectetur nihil, ducimus quisquam ex ipsam voluptatum, ullam accusantium repudiandae excepturi architecto. Eos iste molestiae voluptas corporis? Eius dolore vero natus fugit doloremque suscipit. Cupiditate repudiandae ipsa eaque obcaecati. Optio, repellat. Eos exercitationem corrupti magni aspernatur dicta impedit corporis ullam porro voluptatem debitis laborum obcaecati ea eaque deserunt vel, consequuntur commodi quas velit delectus cupiditate? Vel ullam quia cupiditate nobis atque expedita hic fuga nulla enim quas sed, adipisci modi. Officiis quam unde doloremque quaerat eius quasi ad, et, inventore temporibus ipsa facilis atque fugiat, a eaque corrupti tempore commodi sapiente dignissimos rerum similique? Ducimus perferendis perspiciatis assumenda rerum, enim earum magnam quidem iste neque illo debitis labore velit eaque est dolor dolores corporis culpa! Tempora ullam corporis adipisci. Ad a voluptates architecto molestias assumenda delectus, distinctio fuga fugiat? Officia sapiente nam illum distinctio sequi nulla, sint hic aliquid! Accusantium recusandae et odio distinctio aliquid qui repellendus, illum, commodi nobis earum velit saepe! Fugit eveniet sit, assumenda eaque commodi consectetur dignissimos. Eum, doloribus? Veniam impedit sequi corporis, tempore perspiciatis magnam dolor?</p>
+</body>
+</html>
